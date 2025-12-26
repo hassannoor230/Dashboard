@@ -410,13 +410,13 @@ function filterMessages() {
 }
 
 let notifications = [
-  { id: 1, text: "New order #1023 received", time: "2h ago", avatar: "../Image/guide-1.jpg", status: "unread" },
-  { id: 2, text: "Payment completed for invoice #4567", time: "5h ago", avatar: "../Image/guide-2.jpg", status: "read" },
-  { id: 3, text: "Customer Sara Malik registered", time: "1d ago", avatar: "../Image/guide-3.jpg", status: "unread" },
-  { id: 4, text: "Order #1012 has been shipped", time: "2d ago", avatar: "../Image/guide-4.jpg", status: "read" },
-  { id: 5, text: "Refund processed for Order #1009", time: "3d ago", avatar: "../Image/guide-1.jpg", status: "unread" },
-  { id: 6, text: "New comment on product 'Laptop'", time: "4d ago", avatar: "../Image/guide-1.jpg", status: "read" },
-  { id: 7, text: "Password changed successfully", time: "5d ago", avatar: "../Image/guide-3.jpg", status: "read" },
+  { id: 1, text: "New order #1023 received", time: "2h ago", avatar: "/Image/guide-1.jpg", status: "unread" },
+  { id: 2, text: "Payment completed for invoice #4567", time: "5h ago", avatar: "/Image/guide-2.jpg", status: "read" },
+  { id: 3, text: "Customer Sara Malik registered", time: "1d ago", avatar: "/Image/guide-3.jpg", status: "unread" },
+  { id: 4, text: "Order #1012 has been shipped", time: "2d ago", avatar: "/Image/guide-4.jpg", status: "read" },
+  { id: 5, text: "Refund processed for Order #1009", time: "3d ago", avatar: "/Image/guide-1.jpg", status: "unread" },
+  { id: 6, text: "New comment on product 'Laptop'", time: "4d ago", avatar: "/Image/guide-1.jpg", status: "read" },
+  { id: 7, text: "Password changed successfully", time: "5d ago", avatar: "/Image/guide-3.jpg", status: "read" },
 ];
 
 function loadNotifications() {
